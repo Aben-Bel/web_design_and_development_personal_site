@@ -12,6 +12,9 @@
     <hr>
     <a href="index.html">Home</a> |
     <a href="contact.html">Contact</a> |
+    <a href="gallery.html">Gallery</a> |
+    <a href="about.html">About</a> |
+
     <hr>
 
     <table>
@@ -34,26 +37,39 @@
     <hr>    
     <h3>Leave your comment here</h3>
     <form action="mailto:abenezer.sbelay@gmail.com" method="POST">
-        <label for="fName">First Name: </label>&nbsp;
-        <input type="text" name="fName" id="fName" required><br>
-        <label for="lName">Last Name: </label>&nbsp;
-        <input type="text" name="lName" id="lName" required><br>
-        <label for="email">Email: </label>&nbsp;
-        <input type="email" name="email" id="email" required><br>
-       <label for="country">Country: </label>&nbsp;
-        <select name="country" id="">
-           <option value="Ethiopia">Ethiopia</option>
-           <option value="Kenya">Kenya</option>
-           <option value="Somalia">Somalia</option>
-           <option value="Dijbouti">Dijbouti</option>
-       </select>
-       <br/>
-        What do you say?<br>
-        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
-        <br>
-        <input type="submit" value="Submit">
+        <table>
+            <tr>
+                <td><label for="fName">First Name: </label></td>
+                <td><input type="text" name="fName" id="fName" required pattern="/^[a-z ,.'-]+$/i"></td>
+            </tr>
+            <tr>
+                <td><label for="lName">Last Name: </label></td>
+                <td><input type="text" name="lName" id="lName" required pattern="/^[a-z ,.'-]+$/i"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email: </label>></td>
+                <td> <input type="email" name="email" id="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="date">Date of birth: </label></td>
+                <td> <input type="date" required/><br/></td>
+            </tr>
+            <tr>
+                <td><label for="country">Country: </label></td>
+                <td> <select name="country" id="">
+                    <option value="Ethiopia">Ethiopia</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="Somalia">Somalia</option>
+                    <option value="Dijbouti">Dijbouti</option>
+                </select>></td>
+            </tr>
+            <tr>
+                <td> What do you say?<br/><textarea name="comment" id="comment" cols="30" rows="10"></textarea></td>
+                <td> <input type="submit" value="Submit"> </td>
+            </tr>
+        </table>
+        
     </form>
-    <hr>
     <a href="https://mail.google.com/">Gmail</a> |
     <a href="https://www.linkedin.com/">Linkedin</a> |
     <a href="https://www.facebook.com/">Facebook</a> |
