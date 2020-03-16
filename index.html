@@ -6,106 +6,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="shortcut icon" type="image/png" href="./assest/image/favicon.ico"/>
+    <link rel="shortcut icon" type="image/png" href="./assest/image/favicon.ico" />
+    <link rel="stylesheet" href="./assest/css/main.css">
 </head>
 
 <body>
-    <!-- This is comment-->
-    <hr>
-    <a href="index.html">Home</a> |
-    <a href="contact.html">Contact</a> |
-    <a href="gallery.html">Gallery</a> |
-    <a href="about.html">About</a> |
-    <hr>
+    <header>
+        <img src="assest/image/profilePic.jpeg" alt="My Picture" width=300 height=200 />
 
-    <table>
-        <tr>
-            <td>
-                <img src="assest/image/profilePic.jpeg" alt="My Picture" width=300 height=200 />
-            </td>
-            <td>
-                <h1>Abenezer Sleshi</h1>
-                <h3>Student, Addis Ababa institute of Technology</h3>
-                <p>Hi there, </p>
-                <p>I am Abenezer, I am experct <strong>Java</strong> Developer who has been
-                    working on Java since <em>5</em></em5>years. I am passionate about
-                    working in different types of programming languages
-                </p>
-            </td>
-        </tr>
-    </table>
+        <div>
+            <h1>Abenezer Sleshi</h1>
+            <h3>Student, Addis Ababa institute of Technology</h3>
+            <p>Hi there, </p>
+            <p>I am Abenezer, I am experct <strong>Java</strong> Developer who has been
+                working on Java since <em>5</em></em5>years. I am passionate about
+                working in different types of programming languages
+            </p>
+        </div>
+    </header>
 
-    <hr>
-    <ul>
-        <li>Sport : I like to watch and play
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li> <a href="contact.html">Contact</a> </li>
+            <li><a href="gallery.html">Gallery</a> </li>
+            <li><a href="about.html">About</a> </li>
+            <li><a href="myworks.html">My Works</a> </li>
+            <li><a href="blog.html">Blog</a> </li>
+        </ul>
+    </nav>
+
+
+    <main>
+        <section>
+            <h3>Hobies</h3>
             <ul>
-                <li>Football</li>
-                <li>BasketBall</li>
-                <li>VolleyBall</li>
-            </ul>
-        </li>
-        <li>Reading Books
-            <ul>
-                <li>Educational Mostly Programing Books </li>
-                <li>Fictions specialy of literatuer
-                <li>Books that impress me the most :
+                <li>Sport : I like to watch and play
                     <ul>
-                        <li>Sherlock Holmes Arthur Colye</li>
-                        <li>Harry Potter J.K. Rowling</li>
+                        <li>Football</li>
+                        <li>BasketBall</li>
+                        <li>VolleyBall</li>
                     </ul>
                 </li>
-        </li>
-    </ul>
-    </li>
-    </ul>
-    <hr>
+                <li>Reading Books
+                    <ul>
+                        <li>Educational Mostly Programing Books </li>
+                        <li>Fictions specialy of literatuer
+                        <li>Books that impress me the most :
+                            <ul>
+                                <li>Sherlock Holmes Arthur Colye</li>
+                                <li>Harry Potter J.K. Rowling</li>
+                            </ul>
+                        </li>
+                </li>
+            </ul>
+        </section>
 
-    <h3>Work Experience</h3>
-    <table cellspacing="30">
-        <tr>
-            <td>
-                <strong>DATE</strong>
-            </td>
-            <td>
-                <strong>JOB title</strong>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                2019
-            </td>
-            <td>
-                Google developer
-            </td>
-        </tr>
-        <tr>
-            <td>
-                2020
-            </td>
-            <td>
-                lecturer
-            </td>
-        </tr>
-    </table>
+        <section>
+            <h3>Work Experience</h3>
+            <div class="container">
+                <div class="col hide">
+                    <p>DATE</p>
+                    <p>JOB title</p>
+                </div>
+                <div class="col">
+                    <p class="hide">2019</p>
+                    <p>Google developer</p>
+                </div>
+            </div>
 
-    <hr>
-    <h3>Top Skills</h3>
-    <table cellspacing="10">
-        <tr>
-            <td>Java for Web and Android </td>
-            <td>⭐️⭐️⭐️⭐️⭐️</td>
-        </tr>
-        <tr>
-            <td>HTML, CSS and Javascript</td>
-            <td>⭐️⭐️⭐️⭐️⭐️</td>
-        </tr>
-        <tr>
-            <td>Python</td>
-            <td>⭐️⭐️⭐️⭐️⭐️</td>
-        </tr>
-    </table>
+            <h3>Top Skills</h3>
+            <div class="container">
+                <div class="col">
+                    <p>Java for Web and Android</p>
+                    <p>HTML, CSS and Javascript</p>
+                    <p>Python</p>
+                </div>
+                <div class="col hide" >
+                    <p>⭐️⭐️⭐️⭐️⭐️</p>
+                    <p>⭐️⭐️⭐️⭐️⭐️</p>
+                    <p>⭐️⭐️⭐️⭐️⭐️</p>
+                </div>
+            </div>
+        </section>
 
+    </main>
+
+    <footer>
+        <a href="https://mail.google.com/">Gmail</a>
+        <a href="https://www.linkedin.com/">Linkedin</a>
+        <a href="https://www.facebook.com/">Facebook</a>
+    </footer>
 
 
 </body>
+
 </html>
