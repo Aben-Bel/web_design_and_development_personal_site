@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+.box {
+    display:inline-block;
+    width:30%;
+    margin:0px -2px;
+    padding:0;
+}
+
+#container{
+    padding-top:10vh;
+    width:60%;
+    margin:auto;
+}
+
+#one {
+    border-right: solid black 2px;
+    border-bottom: solid black 2px;
+}
+#two {
+    border-left: solid black 2px;
+    border-right: solid black 2px;
+    border-bottom: solid black 2px;
+}
+#three {
+    border-left: solid black 2px;
+    border-bottom: solid black 2px;
+}
+
+#four {
+    border-right: solid black 2px;
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+}
+#five {
+    border: solid black 2px;
+}
+#six {
+    border-top: solid black 2px;
+    border-left: solid black 2px;
+    border-bottom: solid black 2px;
+}
+#seven {
+    border-top: solid black 2px;
+    border-right: solid black 2px;
+}
+#eight {
+    border-top: solid black 2px;
+    border-right: solid black 2px;
+    border-left: solid black 2px;
+}
+#nine {
+    border-left: solid black 2px;
+    border-top: solid black 2px;
+}
