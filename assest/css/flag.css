@@ -1,0 +1,346 @@
+.question3 {
+    display:flex;
+    flex-direction: column;
+}
+.flag {
+    display:flex;
+    flex-direction: row;
+    border: grey solid 5px;
+}
+.flag p {
+    margin: auto;
+    color: #0cf;
+    font-size:34px;
+    padding:10px;
+}
+.question3 p {
+    font-size:24px;
+    color: #007a3d;
+}
+
+
+/* Ethiopia related css */
+
+.ethiopia {
+    position: relative;
+    background: -webkit-linear-gradient(top, #393 33%, #f8de1f 33%, #f8de1f 66%, #e51400 33%);
+    width:550px;
+    transform: scale(1);
+}
+.ethiopia .inner-circle {
+    height: 550px;
+    border-radius: 50%;
+    background: #0cf;
+    transform: scale(0.4);
+}
+.dash {
+    position: relative;
+    width: 0;
+    height: 110px;
+    border: 4px solid yellow;
+    position: absolute;
+}
+
+.dash1 {
+    -webkit-transform: rotate(32.5deg);
+    transform: rotate(32.5deg);
+    top:60px;
+    left:330px;
+}
+
+.dash2 {
+    -webkit-transform: rotate(-32.5deg);
+    transform: rotate(-32.5deg);
+    top:60px;
+    left:185px;
+}
+
+.dash3 {
+    -webkit-transform: rotate(70deg);
+    transform: rotate(70deg);
+    top:280px;
+    left:125px;
+}
+
+.dash4 {
+    top:380px;
+    left:255px;
+}
+
+.dash5 {
+    -webkit-transform: rotate(-70deg);
+    transform: rotate(-70deg);
+    top:280px;
+    left:385px;
+}
+
+.star-side {
+    width: 0;
+    height: 390px;
+    border: 4px solid yellow;
+    position: absolute;
+}
+
+.star1{
+    -webkit-transform: rotate(14deg);
+    transform: rotate(14deg);
+    top:70px;
+    left: 205px;
+}
+
+.star2{
+    -webkit-transform: rotate(-14deg);
+    transform: rotate(-14deg);
+    top:70px;
+    left: 305px;
+}
+.star3{
+    -webkit-transform: rotate(-42.5deg);
+    transform: rotate(-45.5deg);
+    top : 120px;
+    left: 210px;
+}
+.star4{
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    height: 365px;
+    top: -5px;
+    left: 255px;
+}
+.star5{
+    -webkit-transform: rotate(42.5deg);
+    transform: rotate(45.5deg);
+    top : 120px;
+    left: 300px;
+}
+
+
+/* Bostwana related css  */
+
+.botswana {
+    position: relative;
+    background: -webkit-linear-gradient(top, rgb(0, 204, 255) 33%, white 33%, white 38%, black 38%, black 65%,white 65%, white 70%, rgb(0, 204, 255) 70%, rgb(0, 204, 255) 100%);
+    width:550px;
+    height: 550px;
+    transform: scale(1);
+}
+
+/* Gambia related css */
+
+.gambia {
+    position: relative;
+    background: -webkit-linear-gradient(top, #a01306 33%, white 33%, white 38%, blue 38%, blue 66%, white 66%, white 71%, rgb(29, 99, 29) 71%,rgb(29, 99, 29) 100%);
+    width:550px;
+    height: 550px;
+    transform: scale(1);
+}
+
+/*  related css */
+.madagascar1 {
+    display: inline-block;
+    width: 180px;
+    height: 550px;
+    background-color: white;
+    padding:0;
+}
+.madagascar2 {
+    display: inline-block;
+    background: -webkit-linear-gradient(top, darkorange 50%, green 50%, green 100%);
+    width: 420px;
+    height: 550px;
+    transform: scale(1);
+    padding: 0;
+}
+
+/* Sudan */
+
+.sudan {
+    width: 520px;
+    height: 550px;
+    background: -webkit-linear-gradient(top, red 33%, white 33%, white 66%, black 66%, black 100%);
+}
+.triangle {
+    width: 275px;
+    height: 0px;
+    border-left: 275px solid blue;
+    border-top: 275px solid transparent;
+    border-bottom: 275px solid transparent;
+}
+
+/* Tanzania */
+
+.tanzania{
+    position: relative;
+    background: -webkit-linear-gradient(-30deg, green 38%, yellow 38%, yellow 62%, red 62%, red 100%);
+    width:550px;
+    height: 550px;
+    transform: scale(1);
+}
+
+/* Somalia */
+.star {
+    margin:auto;
+    position: relative;
+    left:10px;
+    top:220px;
+    display: block;
+    color: red;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid white;
+    border-left: 100px solid transparent;
+    -webkit-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    transform: rotate(35deg);
+}
+.star:before {
+    border-bottom: 80px solid white;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -45px;
+    left: -65px;
+    display: block;
+    content: '';
+    -webkit-transform: rotate(-35deg);
+    transform: rotate(-35deg);
+}
+.star:after {
+    position: absolute;
+    display: block;
+    color: red;
+    top: 3px;
+    left: -105px;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid white;
+    border-left: 100px solid transparent;
+    content: '';
+    -webkit-transform: rotate(-70deg);
+    transform: rotate(-70deg);
+}
+
+.somalia {
+    background-color: rgb(0, 204, 255);
+    width:550px;
+    height: 550px;
+}
+
+/* seychelles */
+
+.seychelles{
+    position: relative;
+    width:550px;
+    height: 550px;
+    transform: scale(1);
+    background: linear-gradient(160deg,transparent 73%,#007a3d 0),linear-gradient(142deg,transparent 56%,#fff 0),linear-gradient(127deg,transparent 43%,#d62828 0),linear-gradient(107deg,transparent 24%,#fcd856 0),#003FD8;
+}
+
+/* Liberia */
+
+.libera{
+    width:550px;
+    height: 550px;
+}
+
+.top-left {
+    background:blue;
+    width:166px;
+    height:165px;
+    display: inline-block;
+}
+.top-right { 
+    background: repeating-linear-gradient(
+      0deg, 
+      red, 
+      white 0 20%, 
+      red 20% 33.3%
+    ); 
+    width:378px;
+    display: inline-block;
+    height: 165px;
+  }
+  .bottom { 
+    background: repeating-linear-gradient(
+      0deg, 
+      red, 
+      white 0 8.57%, 
+      red 8.57% 16.3%
+    ); 
+    height:325px;
+  }
+
+  .star-liberia {
+    position: relative;
+    left: -22px;
+    top: 48px;
+    display: block;
+    color: red;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid white;
+    border-left: 100px solid transparent;
+    transform: rotate(35deg) scale(0.5);
+
+}
+.star-liberia:before {
+    border-bottom: 80px solid white;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -45px;
+    left: -65px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+}
+.star-liberia:after {
+    position: absolute;
+    display: block;
+    color: red;
+    top: 3px;
+    left: -105px;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid white;
+    border-left: 100px solid transparent;
+    content: '';
+    transform: rotate(-70deg);
+}
+
+/* Gabon */
+
+.gabon {
+    position: relative;
+    background: -webkit-linear-gradient(top,green 33%, yellow 33%, yellow 66%, #3a75c4 66%, #3a75c4 100%);
+    width:550px;
+    height: 550px;
+    transform: scale(1);
+}
+
+/* France */
+
+.france {
+    position: relative;
+    background: -webkit-linear-gradient(left,blue 33%, white 33%, white 66%, red 66%,red 100%);
+    width:550px;
+    height: 550px;
+    transform: scale(1);
+}
+
+/* Finland */
+.finland{
+    width:550px;
+    height: 550px;
+    transform: scale(1);
+    background:linear-gradient(180deg,transparent 35%,#003280 0,#003280 60%,transparent 0),linear-gradient(90deg,transparent 30%,#003280 0,#003280 43%,transparent 0),#fff;
+
+}
